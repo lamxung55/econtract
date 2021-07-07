@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="invoice.xsl"?>
+<inv:invoice xmlns:inv="http://laphoadon.gdt.gov.vn/2014/09/invoicexml/v1" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#">
+	<inv:invoiceData id="data">
+		<inv:invoiceType>01GTKT</inv:invoiceType>
+		<inv:templateCode>01GTKT0/007</inv:templateCode>
+		<inv:invoiceSeries>AM/21E</inv:invoiceSeries>
+		<inv:invoiceNumber>2774508</inv:invoiceNumber>
+		<inv:invoiceName>HÓA ĐƠN DỊCH VỤ VIỄN THÔNG (GTGT)</inv:invoiceName>
+		<inv:invoiceIssuedDate>2021-06-01T00:00:00+07:00</inv:invoiceIssuedDate>
+		<inv:invoiceSignedDate>2021-06-01T00:00:00+07:00</inv:invoiceSignedDate>
+		<inv:contractNumber>604003136/1400240009/25032018</inv:contractNumber>
+		<inv:adjustmentType>1</inv:adjustmentType>
+		<inv:seller>
+			<inv:sellerLegalName>TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI</inv:sellerLegalName>
+			<inv:sellerTaxCode>0100109106</inv:sellerTaxCode>
+			<inv:sellerAddressLine>Lô D26 Khu đô thị mới Cầu Giấy, Phường Yên Hòa, Quận Cầu Giấy, Thành Phố Hà Nội, Việt Nam</inv:sellerAddressLine>
+			<inv:sellerDistrictName>Nam Từ Liêm</inv:sellerDistrictName>
+			<inv:sellerCityName>Hà Nội</inv:sellerCityName>
+			<inv:sellerCountryCode>VN</inv:sellerCountryCode>
+		</inv:seller>
+		<inv:buyer>
+			<inv:buyerDisplayName>Nguyễn Trung Chính</inv:buyerDisplayName>
+			<inv:buyerAddressLine>Tầng 7 Tòa Vietcombank số 198 đường Trần Quang Khải, Phường Lý Thái Tổ, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam</inv:buyerAddressLine>
+		</inv:buyer>
+		<inv:items>
+			<inv:item>
+				<inv:lineNumber>1</inv:lineNumber>
+				<inv:itemCode>M</inv:itemCode>
+				<inv:itemName>Dịch vụ Di động</inv:itemName>
+				<inv:quantity>1</inv:quantity>
+				<inv:itemTotalAmountWithoutVat>305883</inv:itemTotalAmountWithoutVat>
+				<inv:vatPercentage>10</inv:vatPercentage>
+				<inv:vatAmount>30588</inv:vatAmount>
+			</inv:item>
+		</inv:items>
+		<inv:discountItems/>
+		<inv:payments>
+			<inv:payment>
+				<inv:paymentMethodName>TM/CK</inv:paymentMethodName>
+			</inv:payment>
+		</inv:payments>
+		<inv:sumOfTotalLineAmountWithoutVAT>305883</inv:sumOfTotalLineAmountWithoutVAT>
+		<inv:totalAmountWithoutVAT>305883</inv:totalAmountWithoutVAT>
+		<inv:totalVATAmount>30588</inv:totalVATAmount>
+		<inv:totalAmountWithVAT>336471</inv:totalAmountWithVAT>
+		<inv:totalAmountWithVATInWords>Ba trăm ba mươi sáu nghìn bốn trăm bảy mươi mốt đồng chẵn</inv:totalAmountWithVATInWords>
+		<inv:discountAmount>0</inv:discountAmount>
+		<inv:userDefines><![CDATA[<billCycleStartDate>01/05/2021</billCycleStartDate><billCycleEndDate>31/05/2021</billCycleEndDate><subscriberNumber>985814042</subscriberNumber><collectionGroupName>Viettel Hà Nội - Chi nhánh Tập Đoàn Công nghiệp - Viễn Thông Quân Đội</collectionGroupName><feeType>null</feeType><paymentMethod>00</paymentMethod><buyerUnitName>null</buyerUnitName><vtciData></vtciData><reservationCode>9RWCISQSKE</reservationCode>]]></inv:userDefines>
+	</inv:invoiceData>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="seller">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>kjwBVSnO8l+M/MfVY84kcUyPhk0=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>0XsN8bc76+jqOZhkIh4Hn9iKMFy7gGR23rkqjXPSMgRTn6k8Zw8mz+YVZN12crKaxeHeatHZU+7G8d/75BMAd3cedgmeoUYcWUI/F3tNWaHVvo8KQG/30OaednEoryCFLsAa89Cb5O+o4n3uNYpfWSVeFO31ZsHny5POS2aiISYsCuIPKgJg9zbfARvLVdng4qDsUcZz/FFc3WgYhy800pgIj8eTLwu239+tOP6xB9Pgpof5MSWRlcD5LALGVVqJwZG7lVeA2oKSf+osoCSEgYCj9rnLC9JkbeDFDMCo4XOV/4aIQ2Eo/pOrKCkQeJ1dGFxTpnNo3/AaMN/F5MEGXg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509SubjectName>C=VN,L=HÀ NỘI,CN=TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI,UID=MST:0100109106,1.2.840.113549.1.9.1=#161368616e74407669657474656c2e636f6d2e766e</X509SubjectName>
+				<X509Certificate>MIIEsTCCA5mgAwIBAgIQVAT//rcDP7MW1nIgG4SaWDANBgkqhkiG9w0BAQUFADBOMQswCQYDVQQGEwJWTjESMBAGA1UEBwwJSMOgIE7hu5lpMRYwFAYDVQQKEw1WaWV0dGVsIEdyb3VwMRMwEQYDVQQDEwpWaWV0dGVsLUNBMB4XDTIwMDkyNzAyNTEzMloXDTIxMDkyNzAyNTEzMlowgagxIjAgBgkqhkiG9w0BCQEWE2hhbnRAdmlldHRlbC5jb20udm4xHjAcBgoJkiaJk/IsZAEBDA5NU1Q6MDEwMDEwOTEwNjFBMD8GA1UEAww4VOG6rFAgxJBPw4BOIEPDlE5HIE5HSEnhu4ZQIC0gVknhu4ROIFRIw5RORyBRVcOCTiDEkOG7mEkxEjAQBgNVBAcMCUjDgCBO4buYSTELMAkGA1UEBhMCVk4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDpvIaFoXKdiRsF8JwSpvLXZFxjEzyFqqfp0pWghbgY2f836oK1nZ1lVZ5yNrMivk8UWA2Z4ylcWviAJ5AsGUNsbY/gXb/iaHC68jofwHXVlBduIXfdDHYPD0dOm14Ti2pNi7TF+mDYqNRePw3DnGp1MXPihrlBeiNocIc2VTxA5YLAkh9MhNTUavh/zpjBMNFUpMhSUPwdlVOSCqTQanCxgU9rLhm9AqZJopbSI2Y3Uw9qGAIWlHwRgGIaVAXZBLxqPMW5PZAGCDYgsZ/G8ScfP0ZE/KotVuGTb4K1NkcfoMjlW+d0k+a8W8oCBjlOL6yC8aV00dH/GC5lsAcXaTovAgMBAAGjggEuMIIBKjA1BggrBgEFBQcBAQQpMCcwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnZpZXR0ZWwtY2Eudm4wHQYDVR0OBBYEFHgZDwfhm0xer7P6KRGI8vMf1iXCMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAU/stBFOldp9kyDeSyCFzxXOy2srUwgZIGA1UdHwSBijCBhzCBhKAuoCyGKmh0dHA6Ly9jcmwudmlldHRlbC1jYS52bi9WaWV0dGVsLUNBLXYzLmNybKJSpFAwTjETMBEGA1UEAwwKVmlldHRlbC1DQTEWMBQGA1UECgwNVmlldHRlbCBHcm91cDESMBAGA1UEBwwJSMOgIE7hu5lpMQswCQYDVQQGEwJWTjAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQEFBQADggEBADcuOC4OgbZGLMcMXIwrznExVZQbPH1HjONe1KzoNRUH65aoArMVDBed1LjdcOFVq67nsscMPjcyUK7jsTKaT5/wzsn7QxHdnIwEQyxt6zCVoOpCLFw4VHPKZEgJSDfZyX44eICM2dYV78uj2D2vqisZfFmbOZCvZRQ01TNdTdAgIrbSGPu//rEVNt3OAx1BxpdtyE6m3n2XZYYQKuVsQkuLxp3J3VCKtH7iPdg+ZdooyLSyUxNKxU8jLDHjsSzF31I48ZTkFSQm8MZPS8plfRXrpOAR7tk4T2sdojLtDKJI0KXcUgP3gFl/agKHcgAFNnKfVpUX/wbS+xx+LEDi+4A=</X509Certificate>
+			</X509Data>
+			<KeyValue>
+				<RSAKeyValue>
+					<Modulus>6byGhaFynYkbBfCcEqby12RcYxM8haqn6dKVoIW4GNn/N+qCtZ2dZVWecjazIr5PFFgNmeMpXFr4gCeQLBlDbG2P4F2/4mhwuvI6H8B11ZQXbiF33Qx2Dw9HTpteE4tqTYu0xfpg2KjUXj8Nw5xqdTFz4oa5QXojaHCHNlU8QOWCwJIfTITU1Gr4f86YwTDRVKTIUlD8HZVTkgqk0GpwsYFPay4ZvQKmSaKW0iNmN1MPahgCFpR8EYBiGlQF2QS8ajzFuT2QBgg2ILGfxvEnHz9GRPyqLVbhk2+CtTZHH6DI5VvndJPmvFvKAgY5Ti+sgvGldNHR/xguZbAHF2k6Lw==</Modulus>
+					<Exponent>AQAB</Exponent>
+				</RSAKeyValue>
+			</KeyValue>
+		</KeyInfo>
+	</Signature>
+</inv:invoice>
